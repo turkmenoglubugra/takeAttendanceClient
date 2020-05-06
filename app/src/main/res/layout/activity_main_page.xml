@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ek_1"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal|center" >>
+
+    <Button
+        android:id="@+id/openPollingPage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/round"
+        android:padding="15dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="YOKLAMA AL" />
+
+
+    <Button
+        android:id="@+id/openSearchPage"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:textColor="#000"
+        android:background="@drawable/round"
+        android:text="YOKLAMA SORGULAMA" />
+    <Button
+        android:id="@+id/addCourse"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:background="@drawable/round"
+        android:text="DERS EKLE" />
+</LinearLayout>
